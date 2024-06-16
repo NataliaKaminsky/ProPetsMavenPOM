@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class PropertiesReader {
-    private static final String PROPERTIES_PATH = "src/main/resources/propertie.properties";
+    private static final String PROPERTIES_PATH = "src/main/resources/properties.properties";
 
     public static String getProperty(String key) {
         Properties properties = new Properties();
